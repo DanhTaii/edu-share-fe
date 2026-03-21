@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainLayout">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="LoginLayout">
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="LogoImage">
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="SubTitleText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#64748B</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+    </style>
+
+    <style name="LoginFormLayout">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="ToggleLayout">
+        <item name="android:background">@color/grey_light</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="LoginBox">
+        <item name="android:background">@color/green_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SignUpBox">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="EmailTextView">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="EmailTextEdit">
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@drawable/bg_input</item>
+    </style>
+
+    <style name="Note">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textColor">#64748B</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Forgot">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textColor">@color/green_light</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/green_light</item>
+    </style>
+
+    <style name="SubSignUp">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MadeBy">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/green_light</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+</resources>
