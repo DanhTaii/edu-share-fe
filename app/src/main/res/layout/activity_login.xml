@@ -14,7 +14,6 @@
         style="@style/LoginLayout"
         >
 
-        <!-- Logo -->
         <ImageView android:id="@+id/iv_logo"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -22,7 +21,6 @@
             style="@style/LogoImage"
             />
 
-        <!-- Title -->
         <TextView android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +35,6 @@
             style="@style/SubTitleText"
             />
 
-        <!-- CARD FORM -->
         <LinearLayout android:id="@+id/layout_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,8 +42,6 @@
             style="@style/LoginFormLayout"
             >
 
-
-            <!-- Toggle Login / Sign up -->
             <LinearLayout android:id="@+id/layout_toggle"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
@@ -71,7 +66,6 @@
                     />
             </LinearLayout>
 
-            <!-- Email -->
             <TextView android:id="@+id/tv_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,7 +87,6 @@
                 style="@style/Note"
                 />
 
-            <!-- Password -->
             <TextView android:id="@+id/tv_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -109,7 +102,6 @@
                 style="@style/EmailTextEdit"
                 />
 
-            <!-- Forgot -->
             <TextView android:id="@+id/tv_forgot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -117,7 +109,6 @@
                 style="@style/Forgot"
                 />
 
-            <!-- Button -->
             <Button android:id="@+id/btn_vefify"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -125,7 +116,6 @@
                 style="@style/LoginButton"
                 />
 
-            <!-- Sign up -->
             <TextView android:id="@+id/tv_sub_sign_up"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
