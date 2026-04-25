@@ -73,7 +73,7 @@
                 style="@style/EmailTextView"
                 />
 
-            <EditText android:id="@+id/te_email"
+            <EditText android:id="@+id/edt_email"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:hint="student@university.edu"
@@ -94,7 +94,7 @@
                 style="@style/EmailTextView"
                 />
 
-            <EditText android:id="@+id/te_password"
+            <EditText android:id="@+id/edt_password"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:hint="Nhập mật khẩu"
@@ -109,7 +109,7 @@
                 style="@style/Forgot"
                 />
 
-            <Button android:id="@+id/btn_vefify"
+            <Button android:id="@+id/btn_verify"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="Đăng nhập"
