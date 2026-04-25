@@ -6,8 +6,6 @@
     <color name="background">#E8F9F1</color>
     <color name="green_light">#0D9488</color>
     <color name="grey_light">#E5E7EB</color>
-
-
-
-
+    <color name="blue_dark">#1E3A8A</color>
+    <color name="yellow_star">#FACC15</color>
 </resources>
