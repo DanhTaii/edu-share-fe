@@ -8,4 +8,8 @@
     <color name="grey_light">#E5E7EB</color>
     <color name="blue_dark">#1E3A8A</color>
     <color name="yellow_star">#FACC15</color>
+
+    <color name="black_text">#333333</color>
+    <color name="bg_map_gray">#f3f4f6</color>
+    <color name="gray_stroke">#DDDDDD</color>
 </resources>
