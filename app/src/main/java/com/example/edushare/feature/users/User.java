@@ -8,7 +8,7 @@ public class User {
     private String fullName;
     private String email;
     @SerializedName("student_code")
-    private String studentCode = "23130283";
+    private String studentCode;
     private String avatarUrl;
 
     public User() {
