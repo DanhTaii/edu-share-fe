@@ -18,6 +18,7 @@
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:padding="16dp"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -27,9 +28,8 @@
             android:layout_height="40dp"
             android:clickable="true"
             android:focusable="true"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/bg_map_gray"
             app:cardCornerRadius="20dp"
-            app:cardElevation="6dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -60,9 +60,8 @@
             android:layout_height="40dp"
             android:clickable="true"
             android:focusable="true"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/bg_map_gray"
             app:cardCornerRadius="20dp"
-            app:cardElevation="6dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -102,7 +101,7 @@
                 android:checked="true"
                 android:text="All"
                 app:chipBackgroundColor="@color/white"
-                app:chipElevation="4dp"
+                app:elevation="4dp"
                 app:chipStrokeColor="@color/gray_stroke"
                 app:chipStrokeWidth="1dp" />
 
@@ -113,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:text="Dorm A"
                 app:chipBackgroundColor="@color/white"
-                app:chipElevation="4dp"
+                app:elevation="4dp"
                 app:chipStrokeColor="@color/gray_stroke"
                 app:chipStrokeWidth="1dp" />
 
@@ -124,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:text="Dorm B"
                 app:chipBackgroundColor="@color/white"
-                app:chipElevation="4dp"
+                app:elevation="4dp"
                 app:chipStrokeColor="@color/gray_stroke"
                 app:chipStrokeWidth="1dp" />
 
@@ -135,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:text="Canteen"
                 app:chipBackgroundColor="@color/white"
-                app:chipElevation="4dp"
+                app:elevation="4dp"
                 app:chipStrokeColor="@color/gray_stroke"
                 app:chipStrokeWidth="1dp" />
 
