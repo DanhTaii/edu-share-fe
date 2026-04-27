@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bản đồ TP.HCM</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>🗺️ Bản đồ TP.HCM + Tìm đường</h2>
+<input id="from" placeholder="Nhập điểm đi (VD: Đại học FPT)" />
+<input id="to" placeholder="Nhập điểm đến (VD: Bến Thành)" />
+<button onclick="findRoute()">Tìm đường</button>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
