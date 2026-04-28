@@ -1,12 +1,14 @@
-package com.example.edushare;
+package com.example.edushare.feature.locations;
 
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.edushare.R;
+
 import org.osmdroid.config.Configuration;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
-import org.osmdroid.views.overlay.Marker;
 
 public class MapActivity extends AppCompatActivity {
     private MapView map;

@@ -1,101 +1,81 @@
-package com.example.edushare;
+package com.example.edushare.common.helper;
 
-import android.os.Bundle;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class RegisterValidator {
+    public static boolean validate(EditText teFullname, EditText teEmail, EditText teStudentCode ,EditText tePhone,
+                                   EditText tePassword, EditText teRewritePassword) {
 
-public class RegisterActivity extends AppCompatActivity {
-    EditText teFullname, teEmail, tePhone, tePassword, teRewritePassword;
-    Button btnCreate;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
-
-        teFullname = findViewById(R.id.edt_fullname);
-        teEmail = findViewById(R.id.edt_register_email);
-        tePhone = findViewById(R.id.edt_phone);
-        tePassword = findViewById(R.id.edt_register_password);
-        teRewritePassword = findViewById(R.id.edt_register_password_rewrite);
-        btnCreate = findViewById(R.id.btn_creaedt_account);
-
-        btnCreate.setOnClickListener(v -> {
-            validateForm();
-        });
-    }
-
-    private void validateForm() {
         String fullname = teFullname.getText().toString().trim();
         String email = teEmail.getText().toString().trim();
+        String studentCode = teStudentCode.getText().toString().trim();
         String phone = tePhone.getText().toString().trim();
         String password = tePassword.getText().toString().trim();
         String rewritePassword = teRewritePassword.getText().toString().trim();
 
-        // 1. Fullname
+
+        // 1. Kiểm tra Fullname
         if (fullname.isEmpty()) {
             teFullname.setError("Không được để trống");
             teFullname.requestFocus();
-            return;
+            return false;
         }
-
         if (fullname.length() < 2) {
             teFullname.setError("Tên quá ngắn");
             teFullname.requestFocus();
-            return;
+            return false;
         }
 
-        // 2. Email
+        // 2. Kiểm tra Email
         if (email.isEmpty()) {
             teEmail.setError("Email không được để trống");
             teEmail.requestFocus();
-            return;
+            return false;
         }
-
         if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
             teEmail.setError("Email không hợp lệ");
             teEmail.requestFocus();
-            return;
+            return false;
         }
 
-        // 3. Phone
+        // 1. Kiểm tra Fullname
+        if (studentCode.isEmpty()) {
+            teStudentCode.setError("Không được để trống");
+            teStudentCode.requestFocus();
+            return false;
+        }
+
+        // 3. Kiểm tra Phone
         if (phone.isEmpty()) {
             tePhone.setError("Không được để trống");
             tePhone.requestFocus();
-            return;
+            return false;
         }
-
         if (!phone.matches("\\d{10}")) {
             tePhone.setError("Số điện thoại phải 10 số");
             tePhone.requestFocus();
-            return;
+            return false;
         }
 
-        // 4. Password
+        // 4. Kiểm tra Password
         if (password.isEmpty()) {
             tePassword.setError("Không được để trống");
             tePassword.requestFocus();
-            return;
+            return false;
         }
-
         if (password.length() < 6) {
             tePassword.setError("Mật khẩu tối thiểu 6 ký tự");
             tePassword.requestFocus();
-            return;
+            return false;
         }
 
-        // 5. Rewrite Password
+        // 5. Kiểm tra Rewrite Password
         if (!rewritePassword.equals(password)) {
             teRewritePassword.setError("Mật khẩu không khớp");
             teRewritePassword.requestFocus();
-            return;
+            return false;
         }
 
-        // Nếu pass hết
-        Toast.makeText(this, "Đăng ký thành công!", Toast.LENGTH_SHORT).show();
+        return true; // Tất cả đều ổn
     }
-
 }
