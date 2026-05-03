@@ -40,7 +40,7 @@
                 android:background="@drawable/bg_circle"
                 android:padding="8dp"
                 android:src="@drawable/ic_edit"
-                android:tint="#FFFFFF" />
+                app:tint="#FFFFFF" />
 
         </RelativeLayout>
 
@@ -128,7 +128,7 @@
                                 android:layout_width="14dp"
                                 android:layout_height="14dp"
                                 android:src="@drawable/ic_shield_check"
-                                android:tint="#1BAA8B" />
+                                app:tint="#1BAA8B" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -288,7 +288,7 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:src="@drawable/ic_bag"
-                        android:tint="#1BAA8B" />
+                        app:tint="#1BAA8B" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -303,7 +303,7 @@
                         android:layout_width="18dp"
                         android:layout_height="18dp"
                         android:src="@drawable/ic_chevron_right"
-                        android:tint="#CCCCCC" />
+                        app:tint="#CCCCCC" />
 
                 </LinearLayout>
 
@@ -335,8 +335,8 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_heart"
-                        android:tint="#E05A6A" />
+                        android:src="@drawable/baseline_favorite_border_24"
+                        app:tint="#E05A6A" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -351,7 +351,7 @@
                         android:layout_width="18dp"
                         android:layout_height="18dp"
                         android:src="@drawable/ic_chevron_right"
-                        android:tint="#CCCCCC" />
+                        app:tint="#CCCCCC" />
 
                 </LinearLayout>
 
@@ -384,7 +384,7 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:src="@drawable/ic_history"
-                        android:tint="#F5A623" />
+                        app:tint="#F5A623" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -399,7 +399,7 @@
                         android:layout_width="18dp"
                         android:layout_height="18dp"
                         android:src="@drawable/ic_chevron_right"
-                        android:tint="#CCCCCC" />
+                        app:tint="#CCCCCC" />
 
                 </LinearLayout>
 
@@ -432,7 +432,7 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:src="@drawable/ic_shield"
-                        android:tint="#1BAA8B" />
+                        app:tint="#1BAA8B" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -447,7 +447,7 @@
                         android:layout_width="18dp"
                         android:layout_height="18dp"
                         android:src="@drawable/ic_chevron_right"
-                        android:tint="#CCCCCC" />
+                        app:tint="#CCCCCC" />
 
                 </LinearLayout>
 
